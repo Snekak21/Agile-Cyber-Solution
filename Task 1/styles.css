@@ -1,0 +1,84 @@
+.main{
+    width: 625px;
+    background-color: rgb(220, 217, 217);
+    padding: 20px;
+    height: 625px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+.one{
+    float: left;
+    width: 195px;
+    height: 100px;
+    background-color:  rgb(220, 0, 0);
+    
+}
+.two{
+    width: 400px;
+    height: 100px;
+    background-color:  rgb(15, 75, 155);
+    float: left;
+    margin-left:20px;
+}
+.three{
+    width: 625px;
+    height: 150px;
+    background-color: rgb(154,126,16);
+    margin-top: 20px;
+    float: left;
+}
+.four,.five,.six{
+    float: left;
+    width: 195px;
+    height: 100px;
+    background-color:  rgb(30, 218, 39);
+    margin-top: 20px;
+}
+.five{
+    background-color: rgb(131, 4, 126);
+    margin-left: 20px;
+}
+.six{
+    background-color: rgb(97, 28, 169);
+    margin-left: 20px;
+}
+.seven,.eight{
+            float:left;
+            width:300px;
+            height: 100px;
+            background-color:rgb(220, 104, 9) ;
+            margin-top: 20px;
+}
+.eight{
+    background-color: rgb(202, 202, 9);
+    margin-left: 20px;
+}
+.nine,.ten,.elevan,.twelve{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin-top:20px;
+    background-color: rgb(14, 136, 14);
+}
+.ten{
+    background-color: rgb(16, 155, 155);
+    margin-left: 20px;
+}
+.elevan{
+    background-color: rgb(98, 10, 10);
+    margin-left: 20px;
+}
+.twelve{
+    background-color: rgb(9, 15, 187);
+    margin-left: 20px;
+}
+.thirteen{
+    background-color: rgb(46, 2, 2);
+    
+    width: 625px;
+    float:left;
+    height:25px ;
+    
+    margin-top: 20px;
+}
