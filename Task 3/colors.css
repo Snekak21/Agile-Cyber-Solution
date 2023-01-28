@@ -1,0 +1,28 @@
+.color{
+    background-color: rgb(180, 169, 177);
+    width: 750px ;
+    height: 300px;
+    padding: 50px;
+    
+}
+.box{
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    
+}
+div.box img{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 75px;
+    border:2px solid rgb(245, 245, 220);
+   
+}
+p{
+    font-family: calibri;
+}
+.aaa{
+    font-weight:bold;
+}
