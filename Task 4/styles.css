@@ -1,0 +1,36 @@
+#container{
+    background-color: lightgray;
+    padding: 20px;
+    min-height: 500px;
+    width:750px;
+    border: 2px solid black;
+    margin-top: 5%;
+    position: relative;
+    left:400px;
+}
+.img{
+    width: 150px;
+    height:150px;
+    background-color: rgb(253,122,122);
+    position: absolute;
+    left: calc(300px + 300px);
+    top: calc(100px + 50px);
+}
+.cross1{
+    transform: rotate(45deg);
+    background-color: black;
+    height: 120px;
+    width: 5px;
+    position: absolute;
+    left: calc(50px + 25px);
+    top: calc(5px + 5px);
+}
+.cross2{
+    transform: rotate(-45deg);
+    background-color: black;
+    height: 120px;
+    width: 5px;
+    position: absolute;
+    left: calc(50px + 25px);
+    top: calc(5px + 5px);
+}
