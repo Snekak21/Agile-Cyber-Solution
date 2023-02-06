@@ -1,0 +1,16 @@
+@font-face {
+    font-family:"Roboto-Italic";
+    src: url("./fonts/Roboto-Italic.ttf");
+}
+.aa,.bb{
+    text-align: center;
+    font-family:Roboto-Italic;
+    
+}
+img{
+    width:500px;
+    height: 350px;
+}
+p{
+    font-family:Roboto-Italic;
+}
