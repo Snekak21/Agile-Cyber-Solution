@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    letter-spacing: 1ch;
+    font-family: 'Nanum Gothic'; 
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+.bgp{
+    color: white;
+    background-image: url(background-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+label{
+    width: 200px;
+    display: inline-block;
+}
+#main{
+    border-color: aliceblue;
+    border: 1px solid black;
+    width: 85%;
+    height: auto;
+    padding: 2%;
+    margin-left: 70px;
+    margin-top: 2%;
+    background-color: rgba(67, 255, 255, .4);
+}
+#main label {  
+    font-family: 'Nanum Gothic'; 
+    letter-spacing: 1px; 
+    margin-right: 1%;
+    padding: 2px;
+}  
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 92%;
+    left: 25%;
+}
+button{
+    margin: 1%;
+    width: 150px;
+    padding: 5px;
+    font-family: 'Nanum Gothic'; 
+    border: 0ch;
+}
+a{
+    color: brown;
+}
+.po{
+
+    background-color: skyblue;
+    
+    color: aliceblue;
+    
+    margin-left: 20%;
+    
+    }
+    
+.rs {
+    
+    background-color: orange;
+    
+    color: aliceblue;
+    
+    }
+    
+input{
+    margin: 1%;
+    background: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+    width: 300px;
+}
+input::placeholder {
+    padding-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+.no {
+    width: 5%;
+    
+}
+    
+.bill {
+   width: 80%;
+    padding-left: 0%;
+}
+.num {
+    width: 200px;
+    padding-left: 1%;
+}
