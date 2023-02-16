@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div onclick="alertTextBox(this)" class="box-one">Box A</div>
+        <div onclick="alertTextBox(this)" class="box-two">Box B</div>
+        <div onclick="alertTextBox(this)" class="box-three">Box C</div>
+        <div onclick="alertTextBox(this)" class="box-four">Box D</div>
+      </body>
+      <script>
+        var clickedText = "";
+        function alertTextBox(div) {
+        if (clickedText != "") {
+        alert(clickedText + " " + div.innerHTML);
+        } else {
+        alert(div.innerHTML);
+        }
+        clickedText = div.innerHTML;
+        }
+      </script>
+
+
+</html>

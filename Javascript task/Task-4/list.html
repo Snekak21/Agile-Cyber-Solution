@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vowel</title>
+    </head>
+    <body>
+        <ul>
+            <li onclick="changeBackground(this)">Sneka</li>
+            <li onclick="changeBackground(this)">Santhiya</li>
+            <li onclick="changeBackground(this)">Shalu</li>
+            <li onclick="changeBackground(this)">Babisha</li>
+            <li onclick="changeBackground(this)">Anusha</li>
+            <li onclick="changeBackground(this)">Reshma</li>
+            <li onclick="changeBackground(this)">Aldrins</li>
+            <li onclick="changeBackground(this)">Jain</li>
+            <li onclick="changeBackground(this)">Raj</li>
+            <li onclick="changeBackground(this)">Sreeja</li>
+        </ul>
+        <script>
+            function changeBackground(elem) {
+            let firstLetter = elem.innerHTML[0];
+            if (firstLetter === 'A' || firstLetter === 'E' || firstLetter === 'I' || firstLetter === 'O' || firstLetter === 'U') {
+            elem.style.background = 'red';
+            } else {
+            elem.style.background = 'green';
+            }
+            }
+        </script>
+    </body>
+
+
+</html>
