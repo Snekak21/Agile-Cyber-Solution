@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change Backround Color</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <html>
+      <body>
+        <button onClick="changeBackground()">Click me!</button>
+        <div id="count"></div>
+      </body>
+    </html>
+    <script>
+      //Create list of 10 colors in an array
+      let colors = [
+        "#FF0096",
+        "#f368e0",
+        "#ee5253",
+        "#0abde3",
+        "#10ac84",
+        "#5f27cd",
+        "#f9d2d3",
+        "#7e0cd6",
+        "#FFA586",
+        "#CDD7E5",
+      ];
+      let count = {};
+      //Change background color randomly
+      function changeBackground() {
+        let colorIndex = Math.floor(Math.random() * colors.length);
+        let randomColor = colors[colorIndex];
+        //Count of each color shown in the background
+        if (count[randomColor] === undefined) {
+          count[randomColor] = 1;
+        } else {
+          count[randomColor]++;
+        }
+        document.body.style.background = randomColor;
+        document.getElementById("count").innerHTML =
+          "Colors count: " + JSON.stringify(count);
+        //using JSON.strinify() method, the count will be get in string value.
+      }
+    </script>
+  </body>
+</html>
